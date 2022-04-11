@@ -1,0 +1,19 @@
+.button {
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: grey;
+}
+
+.button:hover {
+    cursor: pointer;
+    filter: brightness(85%);
+}
+
+.button:disabled {
+    color: grey;
+    background-color: lightgrey;
+}
